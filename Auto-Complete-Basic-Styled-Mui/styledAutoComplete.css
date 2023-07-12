@@ -1,0 +1,11 @@
+.oz-tb-styled-autocomplete .MuiInputBase-input {
+    font-weight: 400,
+}
+
+.oz-tb-styled-autocomplete .MuiAutocomplete-inputRoot {
+    padding: 0px 0px 0px 7px !important;
+}
+
+.oz-tb-styled-autocomplete .MuiAutocomplete-endAdornment {
+    top: 24%;
+}

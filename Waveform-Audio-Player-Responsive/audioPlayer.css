@@ -1,0 +1,39 @@
+.oz-tb-audio-player-container {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 16px !important;
+    background: #3D8BF8;
+    width: 100%;
+}
+
+.oz-tb-audio-player-waveform-parent-container {
+    width: 82% !important;
+    margin-left: 20px !important;
+}
+
+.oz-tb-audio-player-waveform-container {
+    border-radius: 16px !important;
+}
+
+.ob-tb-audio-player-current-time {
+    width: 24.93px;
+    height: 12px;
+    font-weight: 300;
+    font-size: 10px;
+    color: #FFFFFF;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+
+.oz-tb-audio-player-audio-buttons.MuiIconButton-root {
+    background: #F5F8FA;
+    border: 0.533333px solid #DAE1E6;
+    width: 32px;
+    height: 32px;
+}
+
+.oz-tb-audio-player-audio-buttons.MuiIconButton-root:hover {
+    background: #DAE1E6;
+}

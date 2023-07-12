@@ -1,0 +1,29 @@
+.search-icon {
+    padding: 0px !important;
+}
+
+.search-icon :hover {
+    background-color: transparent !important;
+}
+
+.search-bar-text-field {
+    align-self: center !important;
+    width: 95% !important;
+    margin-right: 12px !important;
+}
+
+.search-bar-text-field .MuiOutlinedInput-root {
+    max-height: 30px !important;
+    border-radius: 8px !important;
+    background-color: #ffff !important;
+    font-size: 14px !important;
+}
+
+.oz-tb-search-bar-text-field .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #99A0A8 !important;
+}
+
+.search-bar-text-field input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}

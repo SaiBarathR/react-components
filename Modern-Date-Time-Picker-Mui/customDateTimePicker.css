@@ -1,0 +1,261 @@
+.styled-date-time-picker-popper-container {
+    /* Datetime picker  Dialog */
+    padding-left: 43px !important;
+}
+
+.styled-date-time-picker-popper-container .MuiTabs-root {
+    /* All  Tab */
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.styled-date-time-picker-popper-container .MuiTab-root {
+    /* UnSelected  Tab */
+    border: 1px solid #DBE1E6;
+    background-color: #F5F8FA;
+    color: #212121
+}
+
+.styled-date-time-picker-popper-container .MuiTab-root.Mui-selected {
+    /* Selected  Tab */
+    background-color: #FFFFFF;
+    border: 1px solid #3D8BF8;
+    color: #008EFF;
+}
+
+.styled-date-time-picker-popper-container .MuiTabs-indicator {
+    border: 0px;
+    height: 0px;
+}
+
+.styled-date-time-picker-popper-container .MuiPickersDay-dayWithMargin {
+    /* Individual Calender Days */
+    color: #0F1925 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    border: 0px;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.styled-date-time-picker-popper-container .MuiPickersDay-root.Mui-selected {
+    /* Currently Selected Calender Day */
+    color: #FFFFFF !important;
+    max-width: 24px;
+    max-height: 24px;
+    background-color: #3D8BF8 !important;
+    border-radius: 4px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    align-content: center !important;
+}
+
+.styled-date-time-picker-popper-container .MuiPickersDay-root:not(.Mui-selected) {
+    /* DateTimePicker  Today Item*/
+    border: 0px;
+    font-weight: 700;
+}
+
+.styled-date-time-picker-popper-container .MuiPaper-root {
+    /* DateTimePicker  DropDown */
+    border: 0px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-left: 10px !important;
+}
+
+.styled-date-time-picker-popper-container .css-epd502 {
+    /* DateTimePicker  DropDown Below Tabs */
+    margin: 0px !important;
+    padding: 0px !important;
+    border-left: 1px solid #D6D6D7;
+    border-right: 1px solid #D6D6D7;
+    max-height: 235ppx;
+    width: inherit;
+}
+
+
+.styled-date-time-picker-popper-container .MuiCalendarPicker-root {
+    /* DateTimePicker  Calender  container */
+    background-color: #FFFFFF;
+    min-height: 200px;
+    max-height: 350px;
+    margin: 0px;
+    padding: 0px !important;
+    width: 360px;
+    /* max-width: 360px !important; */
+}
+
+.styled-date-time-picker-popper-container .MuiPickersCalendarHeader-root {
+    /* DateTimePicker  Calender (Year,Month) Selector */
+    background-color: #F8F9FD;
+    min-height: 52px !important;
+    margin: 0px !important;
+    padding-left: 20px !important;
+    padding-right: 20px;
+}
+
+.styled-date-time-picker-popper-container .MuiDayPicker-weekContainer,
+.MuiDayPicker-header {
+    /* DateTimePicker  all days and days name div */
+    justify-content: space-around !important;
+}
+
+.styled-date-time-picker-popper-container .MuiDayPicker-weekDayLabel {
+    /*DateTimePicker  individual day*/
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #7B8699 !important;
+}
+
+.styled-date-time-picker-popper-container .MuiPickersDay-root.Mui-disabled {
+    /*DateTimePicker disabled individual day*/
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #CCD0D9 !important;
+}
+
+.styled-date-time-picker-popper-container .MuiYearPicker-root {
+    /*DateTimePicker  calender year container*/
+    max-height: 180px;
+}
+
+.styled-date-time-picker-popper-container .MuiMonthPicker-root {
+    /*DateTimePicker  calender month container*/
+    max-height: 180px;
+    min-height: 180px;
+    width: 333px;
+}
+
+.styled-date-time-picker-popper-container .PrivatePickersMonth-root {
+    /*DateTimePicker  calender month items*/
+    max-height: 30px;
+    margin: 5px;
+    max-width: 100px;
+}
+
+.styled-date-time-picker-popper-container .PrivatePickersMonth-root.Mui-selected {
+    /*DateTimePicker  calender selected month*/
+    background: #3D8BF8 !important;
+}
+
+.styled-date-time-picker-popper-container .MuiCalendarOrClockPicker-root {
+    /*DateTimePicker  calender date combined*/
+    border-bottom: 1px solid #D6D6D7;
+}
+
+.styled-date-time-picker {
+    background-color: #FFFFFF;
+}
+
+.styled-date-time-picker-popper-container .PrivatePickersSlideTransition-root {
+    min-height: 140px;
+}
+
+.styled-date-time-picker-popper-container .MuiDateTimePickerTabs-root {
+    box-shadow: none;
+    border: 0px;
+}
+
+.styled-date-time-picker-popper-container .MuiClockPicker-root {
+    width: 360px !important;
+}
+
+.styled-date-time-picker-popper-container .MuiClockPicker-arrowSwitcher {
+    top: 55px;
+}
+
+.styled-date-time-picker-popper-container .MuiClock-amButton {
+    left: 65px !important;
+}
+
+.styled-action-bar-container {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 55px;
+    align-items: center;
+    gap: 12px;
+    padding-right: 12px;
+    border: 1px solid #D6D6D7;
+    border-top: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.styled-action-bar-cancel-button {
+    background: #FFFFFF !important;
+    border: 1px solid #3D8BF8 !important;
+    border-radius: 8px !important;
+    max-height: 30px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #3D8BF8 !important;
+}
+
+.styled-action-bar-set-button {
+    max-width: 67px !important;
+    max-height: 30px !important;
+    background: #3D8BF8 !important;
+    border-radius: 8px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+}
+
+.date-time-picker-tabs-date-container {
+    display: flex;
+    align-items: center !important;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.date-time-picker-tabs-date-icon path {
+    stroke: #008EFF;
+}
+
+@media screen and (max-width:491px) {
+
+    /* width:230px */
+    .styled-date-time-picker-popper-container .MuiCalendarPicker-root {
+        width: auto !important;
+    }
+
+    .styled-date-time-picker-popper-container .MuiYearPicker-root {
+        /*DateTimePicker  calender year container*/
+        max-height: 180px;
+        width: inherit !important;
+    }
+
+    .styled-date-time-picker-popper-container .PrivatePickersYear-root {
+        width: 0px !important;
+    }
+
+
+    .styled-date-time-picker-popper-container .MuiMonthPicker-root {
+        max-width: 270px !important;
+        min-width: 200px !important
+    }
+
+    .styled-date-time-picker-popper-container .PrivatePickersMonth-root {
+        max-height: 28px;
+        margin-top: 4px;
+        max-width: 73px;
+    }
+
+    .styled-date-time-picker-popper-container .MuiClockPicker-root {
+        width: auto !important;
+    }
+
+    .styled-date-time-picker-popper-container .MuiClockPicker-arrowSwitcher {
+        right: 0px !important;
+    }
+}
+
+@media screen and (max-height:667px) {
+    .styled-date-time-picker-popper-container .MuiClockPicker-arrowSwitcher {
+        top: 0px !important;
+    }
+}

@@ -30,7 +30,7 @@ const CustomSnackBar = forwardRef((props, ref) => {
 
 
     return (
-        <SnackbarContent className='oz-tb-snackbar' ref={ref} role="alert">
+        <SnackbarContent className='snackbar' ref={ref} role="alert">
             <div style={{
                 display: 'flex',
                 alignItems: 'center',

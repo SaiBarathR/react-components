@@ -33,7 +33,7 @@ function DateIcon() {
 
 }
 
-export default function OzStyledDateTimePicker({ label, error, helperText, ...dateTimePickerProps }) {
+export default function StyledDateTimePicker({ label, error, helperText, ...dateTimePickerProps }) {
     const [currentTabView, setCurrentTabView] = useState("day")
 
     useEffect(() => {
@@ -42,7 +42,7 @@ export default function OzStyledDateTimePicker({ label, error, helperText, ...da
         }
     }, [])
 
-    function OzStyledDateTimePickerTabs(props) {
+    function StyledDateTimePickerTabs(props) {
         return (
             <Box sx={{ borderRadius: "8px", border: "0px", width: "auto", minWidth: "30px", }} >
                 <DateTimePickerTabs  {...props} />
@@ -50,7 +50,7 @@ export default function OzStyledDateTimePicker({ label, error, helperText, ...da
         )
     }
 
-    function OzStyledActionBar(props) {
+    function StyledActionBar(props) {
         if (props.actions == null || props.actions.length === 0) {
             return null;
         }
@@ -101,8 +101,8 @@ export default function OzStyledDateTimePicker({ label, error, helperText, ...da
                     }
                 }}
                 components={{
-                    Tabs: OzStyledDateTimePickerTabs,
-                    ActionBar: OzStyledActionBar,
+                    Tabs: StyledDateTimePickerTabs,
+                    ActionBar: StyledActionBar,
 
                 }}
                 componentsProps={{

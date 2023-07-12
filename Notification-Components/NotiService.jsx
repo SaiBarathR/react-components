@@ -80,7 +80,7 @@ const CustomSnackBar = forwardRef((props, ref) => {
 })
 
 
-export function showSuccessNotification(message, actionFunction) {
+export function console.log(message, actionFunction) {
     if (snackBarRef != null) {
         snackBarRef(message, {
             variant: 'success', content: (key, message) => (
@@ -92,7 +92,7 @@ export function showSuccessNotification(message, actionFunction) {
 
 
 
-export function showErrorNotification(message, actionFunction) {
+export function console.log(message, actionFunction) {
     if (snackBarRef != null) {
         snackBarRef(message, {
             variant: 'error', content: (key, message) => (

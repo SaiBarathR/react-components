@@ -19,7 +19,7 @@ export default function StyledAutoComplete({ error, helperText, placeholder, req
                     {props.label}
                 </Typography>}
             <Autocomplete
-                className="oz-tb-styled-autocomplete"
+                className="styled-autocomplete"
                 popupIcon={<DropDownIcon />}
                 clearIcon={""}
                 noOptionsText="No matching result found"

@@ -15,7 +15,7 @@ function PauseIcon() {
     </svg>
 }
 
-export default function OzTbAudioPlayer({ audio }) {
+export default function AudioPlayer({ audio }) {
     const containerRef = useRef();
     const waveSurferRef = useRef({
         isPlaying: () => false,
@@ -72,19 +72,19 @@ export default function OzTbAudioPlayer({ audio }) {
     }, [audio]);
 
     return (
-        <div className='oz-tb-audio-player-container' >
+        <div className='audio-player-container' >
             <IconButton
                 onClick={() => {
                     waveSurferRef.current.playPause();
                     toggleIsPlaying(waveSurferRef.current.isPlaying());
                 }}
-                className='oz-tb-audio-player-audio-buttons'
+                className='audio-player-audio-buttons'
             >
                 {isPlaying ? <PauseIcon /> : <PlayIcon />}
             </IconButton>
-            <label className='ob-tb-audio-player-current-time'>{currentAudioTime}</label>
-            <div className='oz-tb-audio-player-waveform-parent-container' >
-                <div id='waveform' className='oz-tb-audio-player-waveform-container' ref={containerRef} />
+            <label className='audio-player-current-time'>{currentAudioTime}</label>
+            <div className='audio-player-waveform-parent-container' >
+                <div id='waveform' className='audio-player-waveform-container' ref={containerRef} />
             </div>
         </div >
     );

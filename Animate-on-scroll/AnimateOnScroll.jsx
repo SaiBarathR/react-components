@@ -38,6 +38,7 @@ const AnimateOnScroll = ({ type, children, initial, inView, reappear, threshold 
         reappear: reappear,
     });
 
+    //add your own styles
     const inViewCss = useMemo(() => {
         const defaultCss = {
             opacity: isVisible ? 1 : 0,
@@ -55,6 +56,7 @@ const AnimateOnScroll = ({ type, children, initial, inView, reappear, threshold 
         switch (type) {
             case 'h1': return <motion.h1 whileInView={{ transition: {} }} ref={ref} {...props} >{children}</motion.h1>
             case 'p': return <motion.p ref={ref} {...props} >{children}</motion.p>
+            // add you html tags
             default: return <motion.div ref={ref} {...props} >{children}</motion.div>
         }
 

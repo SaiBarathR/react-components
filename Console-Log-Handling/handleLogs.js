@@ -1,5 +1,3 @@
-import { showSuccessNotification } from "../components/NotiService";
-
 export function saveLogs() {
     if (console.everything === undefined) {
         console.everything = [];
@@ -44,7 +42,6 @@ export const listenForReload = () => {
 
 export const exportData = () => {
     console.log("Logs converted to json for download");
-    showSuccessNotification('Logs converted to json for download');
     const logs = console.everything;
     const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
         JSON.stringify(logs)
@@ -60,5 +57,4 @@ window.addEventListener("beforeunload", handleReload);
 export function resetLogs() {
     console.everything.length = 0;
     localStorage.removeItem('logs')
-    showSuccessNotification('Logs reseted successfully');
 }
